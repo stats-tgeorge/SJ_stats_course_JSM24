@@ -1,0 +1,28 @@
+---
+title: This is an academic poster with typst and quarto!
+format:
+  poster-typst: 
+    size: "36x24"
+    poster-authors: "Tyler George"
+    departments: "Department of Mathematics and Statistics"
+    institution-logo: "./imgs/cornelllogo.png"
+    footer-text: "Joint Statistical Meetings 2024"
+    footer-url: ""
+    footer-emails: "tgeorge@cornellcollege.edu"
+    footer-color: "523178"
+    keywords: ["Typesetting", "Typst", "Quarto"]
+---
+
+# Title 1
+
+## Title 2
+
+### Title 3
+
+
+# Websites
+
+## Course Website: bit.ly/STA200
+
+
+## JSM Materials: FILL IN THE BLANK
