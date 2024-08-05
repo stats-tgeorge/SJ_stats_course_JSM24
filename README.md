@@ -10,6 +10,6 @@ UPDATE
 
 UPDATE
 
-#### Workshop Slides at:
+#### Poster at:
 
-UPDATE
+<https://stats-tgeorge.github.io/SJ_stats_course_JSM24/Poster_SJ_stats_JSM24.pdf>

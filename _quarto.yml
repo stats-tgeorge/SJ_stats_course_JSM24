@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "JSM 2024 Speed 6, \"Course: Statistics for Social Justice\""
+  title: "JSM 2024 Session - Speed 6, \"Course: Statistics for Social Justice\""
   navbar:
     background: "#523178"
     right:
