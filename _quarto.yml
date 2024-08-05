@@ -1,7 +1,19 @@
 project:
-  title: "Course: Statistics for Social Justice"
   type: website
   output-dir: docs
 
+website:
+  title: "Data Science Tools Workshop"
+  navbar:
+    right:
+      - href: index.qmd
+        text: "About the Workshop"
+      - href: Intro_Git_Github.qmd
+        text: "Overeview Presentation Slides"
+      - href: GitHubWorkshop.qmd
+        text: "Workshop Slides"
+      - icon: github
+        href: https://github.com/stats-tgeorge/G_GH_Workshop_2024
+      
 
 

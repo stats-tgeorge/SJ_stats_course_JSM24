@@ -1,5 +1,5 @@
 ---
-title: "Course: Statistics for Social Justice"
+title: ""
 subtitle: "JSM, 2024, Speed Session 6"
 ---
 
