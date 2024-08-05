@@ -1,9 +1,7 @@
 ---
 title: ""
-subtitle: "JSM, 2024, Speed Session 6"
 ---
 
-Speed Session Slides:
+{{< include README.md >}}
 
-Poster: 
-
+### Slides

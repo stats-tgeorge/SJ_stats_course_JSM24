@@ -3,17 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Data Science Tools Workshop"
+  title: "JSM 2024 Speed 6, \"Course: Statistics for Social Justice\""
   navbar:
+    background: "#523178"
     right:
-      - href: index.qmd
-        text: "About the Workshop"
-      - href: Intro_Git_Github.qmd
-        text: "Overeview Presentation Slides"
-      - href: GitHubWorkshop.qmd
-        text: "Workshop Slides"
       - icon: github
-        href: https://github.com/stats-tgeorge/G_GH_Workshop_2024
-      
+        href: https://github.com/stats-tgeorge/SJ_stats_course_JSM24
+      - icon: twitter-x
+        href: https://x.com/stats_tgeorge
+      - icon: person-circle
+        href: https://stats-tgeorge.github.io/personal_website/about.html
+      - icon: mastadon
+        href: https://fosstodon.org/@stats_tgeorge
 
 

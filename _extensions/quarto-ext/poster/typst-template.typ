@@ -43,7 +43,7 @@
   num_columns: "3",
 
   // University logo's scale (in %).
-  univ_logo_scale: "100",
+  univ_logo_scale: "20",
 
   // University logo's column size (in in).
   univ_logo_column_size: "10",
@@ -52,10 +52,10 @@
   title_column_size: "20",
 
   // Poster title's font size (in pt).
-  title_font_size: "48",
+  title_font_size: "72",
 
   // Authors' font size (in pt).
-  authors_font_size: "36",
+  authors_font_size: "48",
 
   // Footer's URL and email font size (in pt).
   footer_url_font_size: "30",
@@ -67,7 +67,7 @@
   body
 ) = {
   // Set the body font.
-  set text(font: "STIX Two Text", size: 16pt)
+  set text(font: "STIX Two Text", size: 30pt)
   let sizes = size.split("x")
   let width = int(sizes.at(0)) * 1in
   let height = int(sizes.at(1)) * 1in

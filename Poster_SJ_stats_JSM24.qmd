@@ -1,5 +1,5 @@
 ---
-title: This is an academic poster with typst and quarto!
+title: "Course: Statistics for Social Justice"
 format:
   poster-typst: 
     size: "36x24"
@@ -13,16 +13,67 @@ format:
     keywords: ["Typesetting", "Typst", "Quarto"]
 ---
 
-# Title 1
+# Introduction
+A new course was developed that partnered with a non-profit and tabulated, organized,and analyzed their data to answer key questions and help them better serve Iowa communities. 
 
-## Title 2
+# Learning Objectives
+## Content
+ * Historical and ongoing inequities in  housing
+ * Learning and applying introductory statistics
+ 
+ 
+# Academic Setting
+## Institution - Cornell College
+- Liberal arts college of 1150 students
+- Small Town in iowa
+- One-course-at-a-time block schedule
+- All sophomores take second-year course that has a focus on civic engagement with no pre-requisites
 
-### Title 3
+## About The Students
+- Sophomores
+- 14 students
+- Mix of undeclared majors
+- About half of the students had taken a previous statistics course
+
+## Class Research Questions
+
+# Community Partners
+## Waypoint Services
+Among other functions, they coordinate homeless services for 96 of the 99 counties in Iowa. 
+
+## Iowa Legal Aid
 
 
-# Websites
+## Pedagogy
+- Engage -> individual reflection -> class discussion and reflection
+ * Varied content mediums including podcast's, videos, readings, seminars, and a board game
+ * Individual reflections graded with a uniform rubric
+ * Class discussion graded by participation
+ 
+- Lecture and statistics problem sets
 
-## Course Website: bit.ly/STA200
+- Group project
+  - Three class groups
+  - Data "collecting"
+  - Short paper graded with rubric
+  - Info-graphics
+  - Final presentation to Waypoint and community
+ 
+## Positive Outcomes
+- Reflections showed tremendous amounts of personal growth
+- Students who reported not enjoying the course topic reported they still saw value of the work and statistics generally
+- Students were extremely motivated by the potential value of their work to the community
+- Authentic understanding of the complexities of data and potential impacts
 
+## Negative Outcomes
+- Formal statistical knowledge gained was likely minimal
+- The students taking the work seriously struggled to trust the work of other students
+- Difficult to grade individual students
 
-## JSM Materials: FILL IN THE BLANK
+## Student Quotes
+
+## URLS
+
+## Talk/Poster Site: 
+
+## Website for Course
