@@ -3,5 +3,3 @@ title: ""
 ---
 
 {{< include README.md >}}
-
-### Slides

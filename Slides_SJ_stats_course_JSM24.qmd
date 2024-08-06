@@ -5,7 +5,7 @@ institute: Cornell College
 format: 
   revealjs:
     theme: [default, styles.scss]
-    footer: "Data Science Tools,   <NEEDS UPDATED>"
+    footer: "Statistics for SJ,   <NEEDS UPDATED>"
     incremental: true 
     slide-number: true
     preview-links: false
@@ -13,12 +13,12 @@ format:
     icon: github
 ---
 
-## Cornell College
+## Academic Setting: Cornell College
 - Liberal arts college of 1150 students
 - One-course-at-a-time block schedule
 - All sophomores take second-year course that has a focus on civic engagement that has no pre-requisites
 
-## About The Students
+## Academic Setting: The Students
 - Sophomores
 - 14 students
 - Mix of undeclared majors
@@ -29,8 +29,8 @@ format:
 - Iowa Legal Aid
 
 ## Content
- * Historical and ongoing inequities in  housing
- * Learning and applying introductory statistics
+- Historical and ongoing inequities in  housing
+- Learning and applying introductory statistics
  
 ## Pedagogy
 - Engage -> individual reflection -> class discussion and reflection
