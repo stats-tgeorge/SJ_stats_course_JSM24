@@ -5,55 +5,73 @@ institute: Cornell College
 format: 
   revealjs:
     theme: [default, styles.scss]
-    footer: "Statistics for SJ,   <NEEDS UPDATED>"
+    footer: "Statistics for SJ, Materials @ bit.ly/SSJ_JSM24"
     incremental: true 
     slide-number: true
     preview-links: false
     logo: imgs/cornelllogo.png
-    icon: github
 ---
 
 ## Academic Setting: Cornell College
-- Liberal arts college of 1150 students
-- One-course-at-a-time block schedule
-- All sophomores take second-year course that has a focus on civic engagement that has no pre-requisites
+
+-   Liberal arts college of 1150 students
+-   One-course-at-a-time block schedule
+-   All sophomores take a second-year course with a focus on civic engagement with no pre-requisites
 
 ## Academic Setting: The Students
-- Sophomores
-- 14 students
-- Mix of undeclared majors
-- About half had taken a previous statistics course
+
+-   Sophomores
+-   14 students
+-   Mix of undeclared majors
+-   About half of the students happen to have taken a previous statistics course
 
 ## Community Partners
-- Waypoint Services
-- Iowa Legal Aid
 
-## Content
-- Historical and ongoing inequities in  housing
-- Learning and applying introductory statistics
- 
-## Pedagogy
-- Engage -> individual reflection -> class discussion and reflection
- * Varied content mediums including podcast's, videos, readings, seminars, and a board game
- * Individual reflections graded with a uniform rubric
- * Class discussion graded by participation
- 
-- Lecture and statistics problem sets
+-   Waypoint Services
+-   Iowa Legal Aid
 
-- Group project
-  - Three class groups
-  - Data "collecting"
-  - Short paper graded with rubric
-  - Info-graphics
-  - Final presentation to Waypoint and community
- 
+## Brief Learning Objectives
+
+-   Historical and ongoing inequities in housing
+-   Learn and apply descriptive introductory statistics
+
+## Pedagogy (1 of 2)
+
+-   Engage -> Individual reflection -> Class discussion and reflection
+-   Varied content mediums including podcast's, videos, readings, seminars, and a board game
+-   Individual reflections graded with a uniform rubric
+-   Class discussion graded by participation
+
+## Pedagogy (2 of 2)
+
+-   Interactive lecture and problem sets
+
+-   Group project
+  *   Three groups, size 4-5 students each
+  *   Data "collecting"
+  *   Short paper (graded with rubric)
+  *   Info-graphics
+  *   Final presentation to Waypoint and community
+
 ## Positive Outcomes
-- Reflections showed tremendous amounts of personal growth
-- Students who reported not enjoying the course topic reported they still saw value of the work and statistics generally
-- Students were extremely motivated by the potential value of their work to the community
-- Authentic understanding of the complexities of data and potential impacts
+
+-   Reflections showed tremendous amounts of personal growth
+-   Students who reported not enjoying the course topic reported they still saw the value of the work and statistics generally
+- Students were extremely motivated by the potential value of their work for the community
+-   Authentic understanding of the complexities of data and potential impacts
 
 ## Negative Outcomes
-- Formal statistical knowledge gained was likely minimal
-- The students taking the work seriously struggled to trust the work of other students
-- Difficult to grade individual students
+
+-   Minimal learned formal statistics
+- The students taking the work seriously struggled to trust other students
+-   Difficult to grade individual students
+
+## Example Student Work
+
+<https://stats-tgeorge.quarto.pub/sta-200-stats4sj/>
+
+## Thank you
+
+Materials:
+
+![](imgs/bit.ly_SSJ_JSM24.png){width=4in}

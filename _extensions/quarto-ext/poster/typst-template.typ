@@ -43,7 +43,7 @@
   num_columns: "3",
 
   // University logo's scale (in %).
-  univ_logo_scale: "20",
+  univ_logo_scale: "100",
 
   // University logo's column size (in in).
   univ_logo_column_size: "10",
@@ -96,11 +96,11 @@
         inset: 20pt,
         radius: 10pt,
         [
-          #text(font: "Courier", size: footer_url_font_size, footer_url) 
+          #text(white,font: "Courier", size: footer_url_font_size, footer_url) 
           #h(1fr) 
-          #text(size: footer_text_font_size, smallcaps(footer_text)) 
+          #text(white,size: footer_text_font_size, smallcaps(footer_text)) 
           #h(1fr) 
-          #text(font: "Courier", size: footer_url_font_size, footer_email_ids)
+          #text(white,font: "Courier", size: footer_url_font_size, footer_email_ids)
         ]
       )
     ]
@@ -128,7 +128,7 @@
     set text(24pt, weight: 400)
     if it.level == 1 [
       // First-level headings are centered smallcaps.
-      #set align(center)
+      #set align(left)
       #set text({ 32pt })
       #show: smallcaps
       #v(50pt, weak: true)
@@ -169,7 +169,7 @@
       image(univ_logo, width: univ_logo_scale),
       text(title_font_size, title + "\n\n") + 
       text(authors_font_size, emph(authors) + 
-          "   (" + departments + ") "),
+          ",   " + departments + " "),
     )
   )
 

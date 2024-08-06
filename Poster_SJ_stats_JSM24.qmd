@@ -3,88 +3,75 @@ title: "Course: Statistics for Social Justice"
 format:
   poster-typst: 
     size: "36x24"
-    poster-authors: "Tyler George"
+    poster-authors: "Dr. Tyler George"
     departments: "Department of Mathematics and Statistics"
-    institution-logo: "./imgs/cornelllogo.png"
+    institution-logo: "./imgs/cornelllogo2.jpg"
     footer-text: "Joint Statistical Meetings 2024"
-    footer-url: ""
+    footer-url: "bit.ly/SSJ_JSM24"
     footer-emails: "tgeorge@cornellcollege.edu"
     footer-color: "523178"
-    keywords: ["Typesetting", "Typst", "Quarto"]
 ---
 
 # Introduction
 A new course was developed that partnered with a non-profit and tabulated, organized,and analyzed their data to answer key questions and help them better serve Iowa communities. 
 
-# Learning Objectives
-## Content
- * Historical and ongoing inequities in  housing
- * Learning and applying introductory statistics
- 
- 
-# Academic Setting
-## Institution - Cornell College
-- Liberal arts college of 1150 students
-- Small Town in iowa
+# Brief Learning Objectives
+-   Learn about historical and ongoing inequities in housing
+-   Learn, apply, and communicate the result of descriptive introductory statistics
+
+# Academic Setting and Students
+- Small Liberal arts college of 1150 students
 - One-course-at-a-time block schedule
-- All sophomores take second-year course that has a focus on civic engagement with no pre-requisites
-
-## About The Students
-- Sophomores
-- 14 students
-- Mix of undeclared majors
-- About half of the students had taken a previous statistics course
-
-## Class Research Questions
+- All sophomores take second-year course with a focus on civic engagement and with no pre-requisites
+- Course had 14 Sophomores
+- Mix of undeclared majors, half intending a minor or major in statistics or data science
+- About half of the students happen to have taken a previous statistics course
 
 # Community Partners
-## Waypoint Services
+- Waypoint Services:
 Among other functions, they coordinate homeless services for 96 of the 99 counties in Iowa. 
 
-## Iowa Legal Aid
+- Iowa Legal Aid:
+Provide free civil legal assistance. With this project, they shared data that allowed us to connect some people utilizing housing services to eviction cases. 
 
 
-## Pedagogy
-- Engage -> individual reflection -> class discussion and reflection
- * Varied content mediums including podcast's, videos, readings, seminars, and a board game
- * Individual reflections graded with a uniform rubric
- * Class discussion graded by participation
- 
-- Lecture and statistics problem sets
+# Research Questions
 
-- Group project
-  - Three class groups
-  - Data "collecting"
+- For those who have completed the Waypoint program, is there a relationship between the race and/or gender of the individuals and evictions?
+
+- For those who have completed the Waypoint program, is there a relationship between the race and/or gender of the individuals and who successfully completes a program?
+
+- Is there a relationship between the race and/or gender of the individuals and who uses, and reuses housing programs?
+
+# Pedagogy
+
+![](imgs/Pedagogy.png)
+
+- Varied content mediums including podcast's, videos, readings, seminars, and a board game
+
+- Group project for community partner
+  - Three groups of 4-5 students
+  - Data "collecting" from partners platform
   - Short paper graded with rubric
-  - Info-graphics
-  - Final presentation to Waypoint and community
- 
-## Positive Outcomes
-- Reflections showed tremendous amounts of personal growth
-- Students who reported not enjoying the course topic reported they still saw value of the work and statistics generally
-- Students were extremely motivated by the potential value of their work to the community
-- Authentic understanding of the complexities of data and potential impacts
+  - Info-graphics final presentation to Waypoint and community
+  
+- Individual reflections graded with a uniform rubric
+- Class discussion graded by participation
+- Lecture and statistics problem sets which were graded for correctness
 
-## Negative Outcomes
-- Formal statistical knowledge gained was likely minimal
-- The students taking the work seriously struggled to trust the work of other students
+# Student Outcomes and Challenges
+- Reflections showed tremendous amounts of personal growth
+- Students who reported not enjoying the course topic reported they still saw the value of the work and statistics generally
+- Students were extremely motivated by the potential value of their work for the community
+- Authentic understanding of the complexities of data and potential impacts
+-   Minimal learned formal statistics
+- The students taking the work seriously struggled to trust other students
 - Difficult to grade individual students
 
-## Materials
+# JSM Materials------Course Materials
 
-### Speed Talk and Poster Site
+![](imgs/bit.ly_SSJ_JSM24.png){width=4in fig-align="left"} ![](imgs/bit.ly_STA200.png){width=4in fig-align="right"}
 
-![](imgs/bit.ly_SSJ_JSM24.png){width=4in}
-
-
-
-
-### Course Website
-
-![](imgs/bit.ly_STA200.png){width=4in}
-
-
-## References
 
 
 
