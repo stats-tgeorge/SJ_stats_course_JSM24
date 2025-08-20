@@ -1,0 +1,315 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Course: Statistics for Social Justice},
+  pdfauthor={Tyler George  stats\_tgeorge  stats-tgeorge},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Course: Statistics for Social Justice}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{eCOTS 2024}
+\author{Tyler George \faIcon{x-twitter}
+\href{https://twitter.com/stats_tgeorge}{stats\_tgeorge} \faIcon{github}
+\href{https://github.com/stats-tgeorge}{stats-tgeorge}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsection{Class Setting}\label{class-setting}
+
+\begin{itemize}
+\tightlist
+\item
+  One Course at a Time
+
+  \begin{itemize}
+  \tightlist
+  \item
+    18 class days including finals
+  \item
+    4 hours per day
+  \item
+    Students take, and faculty teach \ldots{} one course at a time
+  \end{itemize}
+\item
+  11 students
+\item
+  all sophomores
+\item
+  no pre-requisites
+\item
+  Community Partners
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Primary: \href{https://www.waypointservices.org/}{Waypoint}
+  \item
+    Secondary: \href{https://www.iowalegalaid.org/}{Iowa Legal Aid}
+  \end{itemize}
+\end{itemize}
+
+\subsection{Collaborative classroom}\label{collaborative-classroom}
+
+\includegraphics{../images/classroom.jpg}
+
+\subsection{Course Creation Timeline}\label{course-creation-timeline}
+
+\begin{itemize}
+\item
+  October 2022: Contacted Civic Engagement Office
+\item
+  November 2022: Met with Waypoint to Discuss Ideas
+\item
+  February 2023: Decided on Research Questions
+\item
+  July 2023: Iowa Legal Aid Joined
+\item
+  Early August 2023: Met to determine final asks and to discuss a
+  community partner agreement
+\item
+  Mid-August 2023: Set course details
+\item
+  End August 2023: Received data, login information provided, and class
+  started
+\end{itemize}
+
+\subsection{Course Organization}\label{course-organization}
+
+\begin{itemize}
+\tightlist
+\item
+  General outline
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Engage with materials to understand disparity and inequity
+  \item
+    Training by community patterns to use their websites and data
+  \item
+    Descriptive statistics
+  \item
+    Start group project
+  \end{itemize}
+\item
+  Throughout
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Relevant talks
+  \item
+    Podcasts and videos
+  \item
+    Reflection and course discussions
+  \end{itemize}
+\end{itemize}
+
+\subsection{Pedagogy}\label{pedagogy}
+
+\begin{itemize}
+\item
+  Engage -\textgreater{} Reflect -\textgreater{} Group discussion
+  followed by whole class discussion
+\item
+  Collaborative learning
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The class was divided into 3 groups
+  \item
+    Each group then divided tasks
+  \item
+    TV on the wall to work on the same website
+  \item
+    Each day those tasks rotated
+  \item
+    Example: 1 - Controlling source website, 2 - typing record from the
+    website, 3 - facilitating watching person typing to verify the
+    record, 4 - working on report and/or presentation
+  \end{itemize}
+\item
+  Presentations - students had to present progress on multiple occasions
+  and the final project was presented to the community partner
+\end{itemize}
+
+\subsection{Unprecedented
+Difficulties}\label{unprecedented-difficulties}
+
+\begin{itemize}
+\tightlist
+\item
+  Waypoint was great but I didn't receive the data and sign-in
+  information until the week before class started.
+\item
+  Transportation
+\item
+  Only 2 sets of login information
+\item
+  Students had to sign a type of confidentiality agreement (not a
+  formal)
+\item
+  Picking software for data visualization
+\item
+  Recording consistency
+\end{itemize}
+
+\subsection{Give Back}\label{give-back}
+
+\begin{itemize}
+\tightlist
+\item
+  Students gave a final presentation to partners
+\item
+  I found and fixed some student errors in data, then wrote metadata for
+  all data files and turned it all back to Waypoint
+\end{itemize}
+
+\section{The End - Thank you!}\label{the-end---thank-you}
+
+
+
+\end{document}

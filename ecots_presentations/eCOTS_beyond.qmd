@@ -1,0 +1,97 @@
+---
+title: "Course: Statistics for Social Justice"
+subtitle: eCOTS 2024
+author: "Tyler George  {{< fa brands x-twitter >}} [stats_tgeorge](https://twitter.com/stats_tgeorge)  {{< fa brands github >}} [stats-tgeorge](https://github.com/stats-tgeorge)"
+institute: Cornell College
+format:
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    incremental: true
+    slide-number: true
+    footer: STA 200, Cornell College, [bit.ly/STA200](https://stats-tgeorge.quarto.pub/sta-200-stats4sj/)
+
+
+logo: "../images/logo.png"
+
+execute:
+  freeze: auto
+  echo: true
+  warning: true
+---
+
+      
+
+## Class Setting {.smaller}
+- One Course at a Time
+  - 18 class days including finals
+  - 4 hours per day
+  - Students take, and faculty teach ... one course at a time
+- 11 students
+- all sophomores
+- no pre-requisites
+- Community Partners
+  - Primary: [Waypoint](https://www.waypointservices.org/)
+  - Secondary: [Iowa Legal Aid](https://www.iowalegalaid.org/)
+
+## Collaborative classroom
+
+![](../images/classroom.jpg)
+ 
+## Course Creation Timeline {.smaller}
+
+- October 2022: Contacted Civic Engagement Office
+
+- November 2022: Met with Waypoint to Discuss Ideas
+
+- February 2023: Decided on Research Questions
+
+- July 2023: Iowa Legal Aid Joined
+
+- Early August 2023: Met to determine final asks and to discuss a community partner agreement
+
+- Mid-August 2023: Set course details
+
+- End August 2023: Received data, login information provided, and class started
+
+## Course Organization {.smaller}
+
+- General outline
+  - Engage with materials to understand disparity and inequity
+  - Training by community patterns to use their websites and data
+  - Descriptive statistics
+  - Start group project
+
+- Throughout
+  - Relevant talks
+  - Podcasts and videos
+  - Reflection and course discussions
+
+## Pedagogy {.smaller}
+
+- Engage -> Reflect -> Group discussion followed by whole class discussion
+
+- Collaborative learning
+  - The class was divided into 3 groups
+  - Each group then divided tasks
+  - TV on the wall to work on the same website
+  - Each day those tasks rotated
+  - Example: 1 - Controlling source website, 2 - typing record from the website, 3 - facilitating watching person typing to verify the record, 4 - working on report and/or presentation 
+
+- Presentations - students had to present progress on multiple occasions and the final project was presented to the community partner
+
+## Unprecedented Difficulties {.smaller}
+
+- Waypoint was great but I didn't receive the data and sign-in information until the week before class started. 
+- Transportation
+- Only 2 sets of login information
+- Students had to sign a type of confidentiality agreement (not a formal NDA)
+- Picking software for data visualization
+- Recording consistency
+
+## Give Back
+- Students gave a final presentation to partners
+- I found and fixed some student errors in data, then wrote metadata for all data files and turned it all back to Waypoint
+
+# The End - Thank you!
+
